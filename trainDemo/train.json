@@ -1,0 +1,12 @@
+[
+  {
+    "instruction": "将用户请求转换为数据库查询",
+    "input": "显示2023年销售额超过100万的客户",
+    "output": "SELECT customer_name FROM sales WHERE year=2023 AND amount>1000000;"
+  },
+  {
+    "instruction": "将用户请求转换为数据库查询",
+    "input": "统计各部门员工数量",
+    "output": "SELECT department, COUNT(*) AS employee_count FROM employees GROUP BY department;"
+  }
+]

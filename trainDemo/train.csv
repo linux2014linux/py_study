@@ -1,0 +1,3 @@
+text,sql,schema
+"查询来自纽约的消费者.","db.customers.find({city:{$eq:'纽约'}},,,)","{'customers': ['id', 'name', 'city']}"
+"查询用户表中年龄>25的用户的姓名","db.users.find({age:{$gt:'25'}},{name:$name},,)","{'users': ['id', 'age', 'name']}"
