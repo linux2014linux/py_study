@@ -478,7 +478,6 @@ vector_record = {
 }
 vector_db.upsert(vector_record)
 ```
-### 5中方法对比
 
 ### 工程实践中建议
 通常是多种方法组合使用。
